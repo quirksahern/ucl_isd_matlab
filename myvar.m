@@ -1,4 +1,4 @@
-function [ varaince ] = myvar(x)
+function [ variance ] = myvar(x)
 %myvar Returns the variance of matrix x 
 %   Detailed explanation goes here
 [rows cols]=size(x);
