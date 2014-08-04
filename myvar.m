@@ -5,6 +5,7 @@ function [ variance ] = myvar(x)
 
 xbar=avg(x);
 
+
 resids = (x-xbar).^2;
 
 variance = sum(resids)/cols;

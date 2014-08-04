@@ -52,7 +52,7 @@ while select1~=3
      title=('Scatter plots for data sets provided');
      % regression stats
      fprintf('Regression statistics for data sets provided:\n');
-     mdl = fitlm(c,d)
+     mdl = LinearModel.fit(c,d)
  else
      fprintf('Unexpected input\n');
  end

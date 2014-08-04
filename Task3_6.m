@@ -7,8 +7,8 @@ exp(1)^(i*pi)+1
 cos(pi+1)/sin(pi)
 
 %Solution to task 3a
-i=sqrt(-1)
-x=12
+i=sqrt(-1);
+x=12;
 logix=(2*log(x))/(i*pi)
 
 %% Task 5 Creating matrices

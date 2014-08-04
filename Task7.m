@@ -11,13 +11,13 @@ sum(A,2)%adds across the 2nd dimension of the matrix
 
 %Task 7.1 using diag()
 diag(A)
-diag(A,2)
+diag(A,2) %2nd parameter is the offset, positive numbers for columns, negative for rows 
 
 %Task 7.1 using fliplr() and flipud()
 fliplr(A)
 flipud(A)
 
-%Task 7.2 use of cat, vercat, horzcat functions
+%% Task 7.2 use of cat, vercat, horzcat functions
 cat(1,A,B)
 cat(2,A,B)
 cat(1,A',B')
@@ -25,13 +25,14 @@ cat(1,A,B')
 vertcat(A,B)
 horzcat(A,B)
 
-%Task 7.3 rot90 and reshape functions
-rot90(A)
-rot90(A')
+%% Task 7.3 rot90 and reshape functions
+A = [1 2; 3 4]
+e=rot90(A)
+f =rot90(A')
 
 %creating new matrix A
 A = [1 4 7 10; 2 5 8 11; 3 6 9 12] 
 
 %use of reshape
 B = reshape(A,2,6)
-B = reshape(A,4,3)
+C = reshape(A,4,3)
