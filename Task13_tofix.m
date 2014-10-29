@@ -13,3 +13,6 @@ all
 
 %save the imported data to a mat file
 write('results.mat')
+
+%write data to an excel file
+xlswrite(newres.xls,numbers)
